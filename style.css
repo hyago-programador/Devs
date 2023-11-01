@@ -1,0 +1,54 @@
+
+   /* style da section 4 */
+   body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    color: #0000ff;
+    font-size: 1rem;
+}
+
+.container h2 {
+    font-size: 4rem;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.section4 {
+    margin-left: -2rem; 
+}
+.list-unstyled{
+    list-style-type: none
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.botoes a {
+    background-color: #0000ff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.botoes a:hover {
+    background-color: #0000ff;
+}
+
+/* Classe de estilo personalizada para ícones de check azuis */
+.check-icon {
+    color: #0000ff;
+}
