@@ -11,13 +11,13 @@
     box-sizing: border-box;
 }
 
-.container h1 {
+.container p {
     color: #0000ff;
     font-size: 1rem;
 }
 
 .container h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: auto;
     margin-top: auto;
 }
@@ -26,7 +26,11 @@
     margin-left: -2rem; 
 }
 .list-unstyled{
-    list-style-type: none
+    list-style-type: none;
+}
+
+ ul li{
+    margin: 10px;
 }
 
 .botoes {
