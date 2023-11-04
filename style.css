@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div {
     display: inline-block;
     font-family: inherit;
@@ -68,6 +69,51 @@ div {
   }
   
   .div-2 {
+=======
+
+   /* style da section 4 */
+   body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container p {
+    color: #0000ff;
+    font-size: 1rem;
+}
+
+.container h2 {
+    font-size: 3rem;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.section4 {
+    margin-left: -2rem; 
+}
+.list-unstyled{
+    list-style-type: none;
+}
+
+ ul li{
+    margin: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.botoes a {
+    background-color: #0000ff;
+>>>>>>> d89000eda1441d81dd49de8e24bac29ae417cba1
     color: white;
     background: #047ffc;
   }
