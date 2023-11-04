@@ -1,8 +1,8 @@
 <<<<<<< HEAD
 /* style da section 2 */
-div {
+.container-center {
     display: inline-block;
-    font-family: inherit;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -18,7 +18,6 @@ div {
   
   section#secao-2{
     display: inline-flex;
-    text-align: center;
   }
   
   .div-1,
@@ -69,7 +68,15 @@ div {
     margin: 55px 0px;
   }
   
+  span#first_letter{
+    color: #0484fc;
+  }
   .div-2 {
+    color: white;
+    background: #047ffc;
+  }
+
+
 =======
 
    /* style da section 4 */
