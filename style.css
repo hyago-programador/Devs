@@ -13,6 +13,7 @@
     line-height: 40px;
     font-weight: bold;
     color: #848484;
+    cursor: pointer;
   }
   
   section#secao-2{
@@ -63,11 +64,20 @@
   }
   
   span#first_letter{
-    color: #0484fc;
+    color: #0479FC;
   }
   .div-2 {
     color: white;
-    background: #047ffc;
+    background: #0484FC;;
+  }
+
+  .div-2:hover{
+    opacity: 80%;
+  }
+
+  #first_letter:hover{
+    opacity: 80%;
+   color: #0000ff;
   }
 
    /* style da section 4 */
