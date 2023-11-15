@@ -1,7 +1,7 @@
 /* style da section 2 */
 .container-center {
   display: inline-block;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,7 @@
 }
 
 .section-1 {
-  width: 30%;
+  width: 33%;
   margin-top: 170px;
 }
 
@@ -25,11 +25,44 @@
 .h1-section1 {
   color: #818181;
   font-size: 62px;
+  margin-top: 10px;
+  margin-bottom: 22px;
+
 }
 
 .parag2-section1 {
   color: #818181;
+  font-size: 20px;
 }
+
+.button-section1 {
+  display: flex;
+  
+
+}
+.button-div1 {
+  margin-right: 25px;
+  width: 222px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background: #0484fc;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button-div2 {
+  width: 222px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background: #0484fc;
+  font-size: 17px;
+  cursor: pointer;
+}
+
 
 
 h2#secao-2 {
