@@ -33,6 +33,7 @@
 .parag2-section1 {
   color: #818181;
   font-size: 20px;
+  margin-bottom: 28px;
 }
 
 .button-section1 {
@@ -42,7 +43,7 @@
 .button-div1 {
   margin-right: 25px;
   width: 222px;
-  height: 50px;
+  height: 60px;
   border-radius: 12px;
   border: none;
   color: white;
@@ -53,7 +54,7 @@
 
 .button-div2 {
   width: 222px;
-  height: 50px;
+  height: 60px;
   border-radius: 12px;
   border: none;
   color: white;
