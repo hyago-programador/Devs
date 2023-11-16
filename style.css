@@ -164,4 +164,265 @@ form .btn-enviar input{
     cursor: pointer;
     margin-bottom: 50px;
     margin-top: 0;
+=======
+/* style da section 2 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-center {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.pai-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.section-1 {
+  width: 33%;
+  margin-top: 170px;
+}
+
+.parag-section1 {
+  color: #0484fc;
+  font-weight: bold;
+  font-size: 20px;
+}
+.h1-section1 {
+  color: #818181;
+  font-size: 62px;
+  margin-top: 10px;
+  margin-bottom: 22px;
+
+}
+
+.parag2-section1 {
+  color: #818181;
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+.button-section1 {
+  display: flex;
+  
+}
+.button-div1 {
+  margin-right: 25px;
+  width: 222px;
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background: #0484fc;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button-div2 {
+  width: 222px;
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background: #0484fc;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+h2#secao-2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 10px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #848484;
+  cursor: pointer;
+}
+
+section#secao-2 {
+  display: inline-flex;
+}
+
+.div-1,
+.div-2,
+.div-3,
+.div-4 {
+  width: 200px;
+  height: 225px;
+  cursor: pointer;
+  margin: 20px 22px;
+  border-radius: 20px;
+  border: none;
+  background: #f4f4f4;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: #848484;
+  padding: 5px;
+  box-shadow: 40px 50px 100px #dcdadc;
+}
+
+.boca-div {
+  width: 80px;
+  height: 55px;
+  margin: 35px 20px;
+  padding: 1px;
+}
+
+.sobrancelha-div {
+  width: 80px;
+  height: 55px;
+  margin: 35px 20px;
+}
+
+.mulher-div {
+  width: 80px;
+  height: 70px;
+  margin: 30px 20px;
+}
+
+.pontos-div {
+  width: 65px;
+  height: 20px;
+  margin: 55px 0px;
+}
+
+span#first_letter {
+  color: #0479FC;
+}
+
+.div-2 {
+  color: white;
+  background: #0484FC;
+  ;
+}
+
+.div-2:hover {
+  opacity: 80%;
+}
+
+#first_letter:hover {
+  opacity: 80%;
+  color: #0000ff;
+}
+
+/* style da section 4 */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container p {
+  color: #0000ff;
+  font-size: 1rem;
+}
+
+.container h2 {
+  font-size: 3rem;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.section4 {
+  margin-left: -2rem;
+}
+
+.list-unstyled {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 10px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+.botoes a {
+  background-color: #0000ff;
+  color: white;
+  background: #047ffc;
+}
+
+span {
+  color: #0484fc;
+}
+
+.nav-topo{
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  margin-left: 32px;
+  color: #818181;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.navegacao{
+margin-top: 20px;
+padding-right: 40px;
+}
+
+.logo-dev{
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.button-inicio{
+background-color: #0484fc;
+width: 140px;
+height: 40px;
+flex-shrink: 0;
+border: none;
+border-radius: 5px;
+color: white;
+margin-left: 10px;
+font-size: 18px;
+cursor: pointer;
+}
+
+button:hover{
+background-color: rgb(20, 20, 218);
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color:#d9d9d9;
+  gap: 80px;
+  padding: 64px 80px;
+ 
+  
+  
+}
+
+.parte-04{
+  margin-left: 40px;
+  color: #0484fc;
+}
+
+.final{
+  background-color: #0479FC;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
 }
