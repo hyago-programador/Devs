@@ -4,45 +4,47 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 /*Header*/
-.nav-topo{
+.nav-topo {
   display: flex;
   justify-content: space-between;
 }
 
-a{
+a {
   margin-left: 32px;
   color: #818181;
   font-size: 17px;
   cursor: pointer;
 }
 
-.navegacao{
-margin-top: 20px;
-padding-right: 40px;
+.navegacao {
+  margin-top: 20px;
+  padding-right: 40px;
 }
 
-.logo-dev{
-margin-top: 20px;
-margin-left: 20px;
+.logo-dev {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-.button-inicio{
-background-color: #0484fc;
-width: 140px;
-height: 40px;
-flex-shrink: 0;
-border: none;
-border-radius: 26px;
-color: white;
-margin-left: 10px;
-font-size: 18px;
-cursor: pointer;
+.button-inicio {
+  background-color: #0484fc;
+  width: 140px;
+  height: 40px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 26px;
+  color: white;
+  margin-left: 10px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-button:hover{
-background-color: rgb(20, 20, 218);
+button:hover {
+  background-color: rgb(20, 20, 218);
 }
+
 /* Section 1*/
 .pai-section {
   display: flex;
@@ -60,6 +62,7 @@ background-color: rgb(20, 20, 218);
   font-weight: bold;
   font-size: 20px;
 }
+
 .h1-section1 {
   color: #818181;
   font-size: 62px;
@@ -76,8 +79,9 @@ background-color: rgb(20, 20, 218);
 
 .button-section1 {
   display: flex;
-  
+
 }
+
 .button-div1 {
   margin-right: 25px;
   width: 222px;
@@ -186,48 +190,48 @@ span#first_letter {
 }
 
 /*SECTION 3*/
-section.section-3{
+section.section-3 {
   padding: 80px 8%;
 }
 
-.section-3{
- display: flex;
- margin: 20px;
- align-items: center;
+.section-3 {
+  display: flex;
+  margin: 20px;
+  align-items: center;
 }
 
-.section-3 .div-{
+.section-3 .div- {
   width: 500px;
   margin-top: 2%;
   margin-left: 50px;
 }
 
-.section-3 .div- p{
+.section-3 .div- p {
   color: #1d4dd1;
   font-size: 18px;
 }
 
-.section-3 .div- h3{
+.section-3 .div- h3 {
   font-size: 60px;
   color: rgba(138, 137, 137, 0.89);
   margin-top: 10px;
 }
 
-.section-3 .div- li{
+.section-3 .div- li {
   font-size: 23px;
   margin-top: 20px;
   color: rgba(148, 146, 146, 0.973);
   list-style: none;
 }
 
-.section-3 .div- i{
+.section-3 .div- i {
   font-size: 15px;
   text-align: center;
   color: #1d4dd1;
   margin-right: 10px;
 }
 
-.section-3 .div- button{
+.section-3 .div- button {
   font-size: 18px;
   color: #ffff;
   background-color: #1d4dd1;
@@ -238,7 +242,7 @@ section.section-3{
   margin-top: 40px;
 }
 
-.section-3 img{
+.section-3 img {
   border-radius: 10%;
   width: 600px;
   height: 700px;
@@ -246,78 +250,96 @@ section.section-3{
 
 /* style da section 4 */
 .container {
+  display: flex;
+  justify-content: center;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
 }
 
+.container-dos-elementos-da-section-4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 2.8rem;
+}
+
 .container p {
-  color: #0000ff;
-  font-size: 1rem;
+  color: #1d4dd1;
+  font-size: 18px;
 }
 
 .container h2 {
-  font-size: 3rem;
-  margin-bottom: auto;
-  margin-top: auto;
-}
-
-.section4 {
-  margin-left: -2rem;
-}
-
-.list-unstyled {
-  list-style-type: none;
+  font-size: 60px;
+  color: rgba(138, 137, 137, 0.89);
+  margin-top: 10px;
 }
 
 ul li {
-  margin: 10px;
+  font-size: 23px;
+  margin-top: 20px;
+  color: rgba(148, 146, 146, 0.973);
+  list-style: none;
 }
 
-.botoes {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 2rem;
+ul li i {
+  font-size: 15px;
+  text-align: center;
+  color: #1d4dd1;
+  margin-right: 10px;
 }
 
-.botoes a {
-  background-color: #0000ff;
-  color: white;
-  background: #047ffc;
+
+button {
+  text-align: center;
+  font-size: 18px;
+  color: #ffff;
+  background-color: #1d4dd1;
+  border: none;
+  width: 230px;
+  height: 70px;
+  border-radius: 40px;
+  margin-top: 40px;
 }
 
 span {
   color: #0484fc;
 }
 
+.img-da-section-4 img {
+  border-radius: 10%;
+  width: 600px;
+  height: 700px;
+}
+
 /* FORMULARIO */
 
-section.formulario{
+section.formulario {
   padding: 70px 4%;
   text-align: center;
 }
 
-.formulario h2{
+.formulario h2 {
   color: rgba(94, 94, 94, 0.973);
   font-weight: 400;
   font-size: 40px;
 }
 
-.formulario span{
+.formulario span {
   font-size: 17px;
   color: #1d4dd1;
   font-weight: 400;
 }
 
-.formulario p{
+.formulario p {
   margin-top: 30px;
   color: rgba(94, 94, 94, 0.973);
   font-weight: 400;
   font-size: 14px;
 }
 
-section .button-contato{
+section .button-contato {
   margin-top: 50px;
   width: 230px;
   height: 70px;
@@ -329,7 +351,7 @@ section .button-contato{
   cursor: pointer;
 }
 
-form{
+form {
   max-width: 800px;
   margin: 0 auto;
   display: flex;
@@ -337,11 +359,12 @@ form{
   flex-direction: column;
   gap: 10px;
   margin-top: 40px;
-  background: #f8f6f6f8 ;
+  background: #f8f6f6f8;
   border-radius: 20px;
 }
 
-form input, form textarea{
+form input,
+form textarea {
   width: 100%;
   background-color: none;
   border: 0;
@@ -352,28 +375,28 @@ form input, form textarea{
   font-size: 18px;
 }
 
-form .input-1{
+form .input-1 {
   display: flex;
   margin-right: 55px;
   margin-left: 5px;
   margin-top: 0;
 }
 
-form textarea{
+form textarea {
   resize: none;
   max-height: 800px;
   height: 300px;
 
 }
 
-form .form-1{
+form .form-1 {
   background-color: #b4b4b421;
   width: 660px;
   margin-left: 10%;
   margin-top: 50px;
 }
 
-form .btn-enviar{
+form .btn-enviar {
   border: none;
   margin-left: 90px;
   margin-right: auto;
@@ -394,20 +417,20 @@ form .btn-enviar input {
 
 /*FOOTER*/
 
-footer{
+footer {
   display: flex;
   justify-content: space-between;
-  background-color:#d9d9d9;
+  background-color: #d9d9d9;
   gap: 80px;
   padding: 64px 80px;
 }
 
-.parte-04{
+.parte-04 {
   margin-left: 40px;
   color: #0484fc;
 }
 
-.final{
+.final {
   background-color: #0479FC;
   text-align: center;
   padding: 20px;
