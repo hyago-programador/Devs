@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style: none;
 }
 
 
@@ -39,6 +38,7 @@ section.section-3{
     font-size: 23px;
     margin-top: 20px;
     color: rgba(148, 146, 146, 0.973);
+    list-style: none;
 }
 
 .section-3 .div-3 i{
