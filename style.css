@@ -19,12 +19,13 @@ a {
 }
 
 .navegacao {
-  margin-top: 20px;
-  padding-right: 40px;
+  margin-top: 5px;
+  padding-right: 80px;
+ 
 }
 
 .logo-dev {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-left: 20px;
 }
 
@@ -54,7 +55,7 @@ button:hover {
 
 .section-1 {
   width: 33%;
-  margin-top: 170px;
+  margin-top: 50px;
 }
 
 .parag-section1 {
@@ -108,7 +109,7 @@ button:hover {
 /* style da section 2 */
 .container-center {
   display: inline-block;
-  margin: 0;
+  margin-left: 250px;
   padding: 0;
 }
 
