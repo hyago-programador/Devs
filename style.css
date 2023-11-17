@@ -506,11 +506,62 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .navegacao{
+      display: block;
+      margin-top: 20px;
+      padding: 0;
+     font-weight: 100;
+
+  }
+  .button-inicio{
+    background-color: #0484fc;
+    width: 160px;
+    height: 35px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 26px;
+    color: white;
+    margin-left: 22px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  .pai-section{
+    color: #818181;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+  }
 
   .section-1 {
     width: 90%;
     margin-top: 30px;
   }
+  .h1-section1{
+    color: #818181;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px
+  }
+  .parag-section1{
+    margin-left: 20px;
+  }
+  .parag2-section1{
+    font-size: 18;
+    text-align: center;
+  }
+  .button-section1{
+    width: 90%;
+    margin-left: 15px;
+    
+  }
+  .container-center{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
 
   /* Add more styles for mobile view */
 
@@ -522,10 +573,11 @@ footer {
   .div-2,
   .div-3,
   .div-4 {
-    width: 120px;
-    height: 140px;
+    width: 90px;
+    height: 180px;
     margin: 10px;
     word-wrap: break-word;
+    font-size: 10px;
   }
 
   .section-3 {
