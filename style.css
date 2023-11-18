@@ -117,7 +117,7 @@ button:hover {
 }
 
 h2#secao-2 {
-  text-align: center;
+  margin-left: 490px;
   font-size: 40px;
   font-weight: 10px;
   line-height: 40px;
@@ -128,6 +128,7 @@ h2#secao-2 {
 
 section#secao-2 {
   display: inline-flex;
+  margin-left: 193px;
 }
 
 .div-1,
@@ -211,7 +212,7 @@ section.section-3 {
 }
 
 .section-3 .div- p {
-  color: #1d4dd1;
+  color: #0484fc;
   font-size: 18px;
 }
 
@@ -231,19 +232,20 @@ section.section-3 {
 .section-3 .div- i {
   font-size: 15px;
   text-align: center;
-  color: #1d4dd1;
+  color: #0484fc;
   margin-right: 10px;
 }
 
 .section-3 .div- button {
   font-size: 18px;
   color: #ffff;
-  background-color: #1d4dd1;
+  background-color: #0484fc;
   border: none;
   width: 230px;
   height: 70px;
   border-radius: 40px;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 .section-3 img {
@@ -270,7 +272,7 @@ section.section-3 {
 }
 
 .container p {
-  color: #1d4dd1;
+  color: #0484fc;
   font-size: 18px;
 }
 
@@ -290,7 +292,7 @@ ul li {
 ul li i {
   font-size: 15px;
   text-align: center;
-  color: #1d4dd1;
+  color: #0484fc;
   margin-right: 10px;
 }
 
@@ -299,12 +301,13 @@ button {
   text-align: center;
   font-size: 18px;
   color: #ffff;
-  background-color: #1d4dd1;
+  background-color: #0484fc;
   border: none;
   width: 230px;
   height: 70px;
   border-radius: 40px;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 span {
@@ -332,7 +335,7 @@ section.formulario {
 
 .formulario span {
   font-size: 17px;
-  color: #1d4dd1;
+  color: #0484fc;
   font-weight: 400;
 }
 
@@ -348,7 +351,7 @@ section .button-contato {
   width: 230px;
   height: 70px;
   font-size: 15px;
-  background-color: #1d4dd1;
+  background-color: #0484fc;
   color: aliceblue;
   border: none;
   border-radius: 40px;
@@ -410,7 +413,7 @@ form .btn-enviar input {
   width: 230px;
   height: 70px;
   font-size: 15px;
-  background-color: #1d4dd1;
+  background-color: #0484fc;
   color: aliceblue;
   border: none;
   border-radius: 40px;
@@ -435,7 +438,7 @@ footer {
 }
 
 .final {
-  background-color: #0479FC;
+  background-color: #0484fc;
   text-align: center;
   padding: 20px;
   color: white;
