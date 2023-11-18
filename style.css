@@ -5,9 +5,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body, html{
+body,
+html {
   overflow-x: hidden;
 }
+
 /*Header*/
 .nav-topo {
   display: flex;
@@ -24,7 +26,7 @@ a {
 .navegacao {
   margin-top: 5px;
   padding-right: 80px;
- 
+
 }
 
 .logo-dev {
@@ -518,6 +520,7 @@ footer {
   .h1-section1 {
     font-size: 51px;
   }
+
   /* Add more styles for mobile view */
 
   h2#secao-2 {
@@ -603,4 +606,87 @@ footer {
     margin-top: 20px;
   }
 
+}
+
+/*estilização do menu-mobile*/
+.nav-mobile {
+  background-color: #0000003b;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 77px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.nav-mobile a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 20px 30px;
+  font-size: 16pt;
+}
+
+.nav-mobile a:hover {
+  background-color: #000000ce;
+}
+
+#btn-menu {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  background: transparent;
+  cursor: pointer;
+  display: none;
+  float: right;
+  margin-top: -53px;
+  margin-right: 30px;
+}
+
+#btn-menu.ativar {
+  border: 4px solid #1d4dd1;
+}
+
+.linha {
+  width: 25px;
+  height: 3px;
+  background-color: #ccc;
+  display: block;
+  margin: 7px auto;
+  position: relative;
+  transform-origin: center;
+  transition: 0.2S;
+}
+
+#btn-menu.ativar .linha:nth-child(1) {
+  transform: translateY(10px) rotate(-45deg);
+  background-color: #1d4dd1;
+}
+
+#btn-menu.ativar .linha:nth-child(3) {
+  transform: translateY(-10px) rotate(45deg);
+  background-color: #1d4dd1;
+}
+
+#btn-menu.ativar .linha:nth-child(2) {
+  width: 0;
+}
+
+@media screen and (max-width:768px) {
+  .navegacao {
+    display: none;
+  }
+
+  .nav-mobile.abrir {
+    visibility: visible;
+    height: calc(100vh - 77px);
+  }
+
+  #btn-menu {
+    display: block;
+  }
 }
