@@ -528,7 +528,7 @@ footer {
 
   h2#secao-2 {
     font-size: 24px;
-    margin-left: -195px;
+    margin-left: -166px;
   }
 
   section#secao-2 {
@@ -557,6 +557,9 @@ footer {
 
   .section-3 .div- h3 {
     font-size: 32px;
+  }
+  .container-center{
+    margin-left: 250px;
   }
 
   .container h2 {
