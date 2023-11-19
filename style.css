@@ -31,7 +31,7 @@ a {
 
 .logo-dev {
   margin-top: 50px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .button-inicio {
@@ -114,7 +114,7 @@ button:hover {
 /* style da section 2 */
 .container-center {
   display: inline-block;
-  margin-left: 250px;
+  margin-left: 50px;
   padding: 0;
 }
 
