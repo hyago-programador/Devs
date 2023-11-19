@@ -554,6 +554,9 @@ footer {
     margin-top: 2%;
     margin-left: 0;
   }
+  .bsection3{
+    margin-left: 30px;
+  }
 
   .section-3 .div- h3 {
     font-size: 32px;
@@ -577,6 +580,10 @@ footer {
   .section-3 img {
     width: 100%;
     height: auto;
+  }
+  .bsection4{
+    margin-left: 65px;
+   
   }
 
   .container img {
